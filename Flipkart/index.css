@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(208, 231, 250);
+}
+.header-1{
+    background-color: white;
+    padding-top:10px;
+}
+.nav-1{
+    background-color: white;
+    padding-top: 10px;
+    position:fixed; 
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.contant-between{
+    justify-content: space-between;
+}
+.contant-evenly{
+    justify-content: space-evenly;
+}
+.align-item{
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 30vh;
+}
+.search{
+    background-color: rgb(208,231,250);
+}
+.search img{
+    width: 30px;
+}
+.search input{
+    width: 50vh;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: rgb(208,231,250);
+}
+.search input::placeholder{
+    width: 1005;
+    background-color: rgb(208, 231, 250);
+    margin-right: -20px;
+}
+.login button{
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.cart button{
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding:10px;
+}
+.cart img{
+    width: 30px;
+}
+.buiness button{
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.buiness img{
+    width: 30px;
+}
+.three-dot{
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+}
+.nav-2{
+    background-color: white;
+    margin:60px 15px 0px 15px;
+    padding: 15px 30px;
+    text-transform: capitalize;
+}
+.select-3, .select-4 img, .select-5 img, .select-8 img, .select-9 img{
+    display: grid;
+}
+h4{
+    font-weight: bold;
+}
+select{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight:bold;
+}
+.select-3 img, .select-4 img, .select-5 img, .select-8 img, .select-9 img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.select-3 img{
+    margin-left: 20px;
+}
+.select-4 img{
+    margin-left: 25px;
+}
+.select-5 img{
+    margin-left: 40px;
+}
+.select-6 img{
+    margin-bottom: -10px;
+}
+.select-8 img{
+    margin-left: 50px;
+}
+.select-9 img{
+    margin-left: 40px;
+}
+.select-3 select{
+    width: 100px;
+}
+.select-4 select{
+    width: 110px;
+}
+.select-5 select{
+    width: 150px;
+}
+.select-8 select{
+    width: 190px;
+}
+.slider{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.controls {
+    padding: 10px;
+  }
+  
+  .slides-container {
+    position: relative;
+    overflow: hidden;  
+    display: flex;
+    flex: 1;
+  }
+  
+  .slide {
+    position: absolute;
+    font-size: 90px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+  }
+  
+  .slides-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;  
+    overflow: hidden;
+  }
